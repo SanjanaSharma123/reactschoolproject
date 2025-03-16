@@ -1,0 +1,170 @@
+
+.campus-title {
+    text-align: center; 
+    font-size: 28px;
+    font-weight: bold;
+    color: #0eb9e0; 
+    margin-bottom: 10px; 
+}
+
+.campus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.campus-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.campus-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: underline; /* Underline for heading */
+    margin-bottom: 15px;
+}
+
+.campus-description {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.campus-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.campus-link:hover {
+    text-decoration: underline;
+}
+
+.notice-section {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.notice-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.notice-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.notice-content {
+    flex: 1;
+}
+
+.notice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.notice-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.view-all {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.latest-btn {
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.notice-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notice-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.notice-date {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.notice-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.notice-link:hover {
+    color: #007bff;
+}
+
+
+.gallery-section {
+    margin-top: 10px;
+    padding: 2px;
+    text-align: center;
+    color: #0eb9e0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 10px; 
+}
+
+.gallery img {
+    width: 19%; 
+    height: auto; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.more-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.feedback {
+    padding: 20px;
+}
+.feedback img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

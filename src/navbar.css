@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #007bff;
+    color: rgb(11, 200, 17);
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  /* School image full screen */
+  .school-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .school-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  /* School name image ke upar */
+  .school-name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Buttons center me */
+  .button-container {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+  }
+  
+  .school-button {
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .school-button:hover {
+    background-color: #218838;
+  }
+  
+
+  
