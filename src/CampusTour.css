@@ -25,8 +25,7 @@
 .campus-heading {
     font-size: 28px;
     font-weight: bold;
-    color: #007bff;
-    text-decoration: underline; /* Underline for heading */
+    color: #010407;
     margin-bottom: 15px;
 }
 
@@ -51,120 +50,134 @@
     text-decoration: underline;
 }
 
-.notice-section {
-    padding: 50px;
-    background-color: #fff;
-}
+.campus-button {
+    background-color: #07b0ce;
+    color: #f8f9f8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
 
-.notice-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .choose-us-section {
+    padding: 60px 0;
+    background-color: #f8f9fc;
+  }
+  
+  .container {
     max-width: 1200px;
     margin: 0 auto;
-    gap: 40px;
-}
-
-.notice-image img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
-}
-
-.notice-content {
-    flex: 1;
-}
-
-.notice-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-}
 
-.notice-title {
+  }
+  
+  .choose-us-content {
+    max-width: 40%;
+  }
+  
+  .choose-us-content h2 {
     font-size: 28px;
-    font-weight: bold;
-    color: #007bff;
-}
-
-.view-all {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.latest-btn {
-    background-color: green;
+    color: #333;
+  }
+  
+  .choose-us-content p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .learn-more-btn {
+    background-color: #007bff;
     color: white;
-    padding: 8px 16px;
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 15px;
-}
-
-.notice-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.notice-list li {
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-.notice-date {
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.notice-link {
-    color: black;
-    text-decoration: underline;
-}
-
-.notice-link:hover {
-    color: #007bff;
-}
-
-
-.gallery-section {
-    margin-top: 10px;
-    padding: 2px;
-    text-align: center;
-    color: #0eb9e0;
-}
-
-.gallery {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    gap: 10px; 
-}
-
-.gallery img {
-    width: 19%; 
-    height: auto; 
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.more-button {
-    margin: 10px;
     padding: 10px 20px;
-    background-color: green;
-    color: white;
+    font-size: 16px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
-}
-.feedback {
+    cursor: pointer;
+  }
+  
+  .choose-us-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 55%;
+  }
+  
+  .card {
+    background: white;
     padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .card1 {
+    width: 100%; /* Card ki width thodi chhoti rakho */
+    margin: 10px 0; /* Thoda space upar neeche */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Text left align hoga */
+  }
+
+.facilities-section {
+  width: 100%;
+  padding: 20px;
+  padding: 40px 0;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
 }
-.feedback img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  /* text-align: left; */
+  margin-bottom: 900px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.facilities-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.facilities-list {
+  display: flex;
+  flex-direction: column; /* Cards ek ke niche ek aayenge */
+  align-items: flex-start; /* Left align honge */
+  gap: 15px;
+  width: 100%;
+  max-width: 600px; /* Cards ka width limit rakho */
 }

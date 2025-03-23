@@ -1,5 +1,6 @@
 import React from "react";
 import "./CampusTour.css";
+import OurFacilities from "./OurFacilities";
 
 const CampusTour = () => {
   return (
@@ -8,13 +9,12 @@ const CampusTour = () => {
 <div className="campus-tour-section">
             <div className="campus-container">
                 <div className="campus-image">
-                    <h2 className="campus-title">Our Campus Tour</h2>
                     <img src="images/school.jpg" alt="Campus" />
                 </div>
 
                 <div className="campus-content">
                     {/* Underline and style the heading */}
-                    <h3 className="campus-heading">School Name & Details</h3>
+                    <h3 className="campus-heading">Our Campus Tour</h3>
 
                     {/* Styled paragraph */}
                     <p className="campus-description">
@@ -27,68 +27,47 @@ const CampusTour = () => {
                         freedom to be creative to inspire our students to be innovative.
                     </p>
 
-                    {/* Styled link */}
-                    <a href="#" className="campus-link">School Overview</a>
+                    <button className="campus-button">School Overview</button>
                 </div>
             </div>
         </div>
 
 
-<div className="notice-section">
-            <div className="notice-container">
-                
-                <div className="notice-image">
-                    <img src="images/school.jpg" alt="Notice Board" />
-                </div>
-
-                
-                <div className="notice-content">
-                    <div className="notice-header">
-                        <h2 className="notice-title">Notice</h2>
-                        <h2 className="view-all">View All →</h2>
-                    </div>
-
-                   
-                    <button className="latest-btn">Latest....</button>
-
-                    
-                    <ul className="notice-list">
-                        <li>
-                            <span className="notice-date">20 Jan</span> 
-                            <a href="#" className="notice-link">
-                                Notice Regarding Upcoming Campus Event: Spring Fling Carnival.
-                            </a>
-                        </li>
-                        <li>
-                            <span className="notice-date">22 Jan</span> 
-                            <a href="#" className="notice-link">
-                                Important Notice: Changes to Examination Schedule for Fall Semester 2024.
-                            </a>
-                        </li>
-                        <li>
-                            <span className="notice-date">24 Jan</span> 
-                            <a href="#" className="notice-link">
-                                Notice Regarding Deadline Extension for Assignment Submission in Biology 101.
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <section className="choose-us-section">
+      <div className="container">
+        <div className="choose-us-content">
+          <h2>Why Choose Us?</h2>
+          <p>
+            Di samping adalah profil sekolah kami secara keseluruhan dari mulai
+            bagian depan hingga seluruh fasilitas yang terdapat di sekolah kami.
+          </p>
+          <button className="learn-more-btn">Lebih Lanjut</button>
         </div>
-
-<div className="gallery-section">
-        <h2>Gallery</h2>
-        <div className="gallery">
-        <img src="images\Study.avif" alt="Gallery" />
-        <img src="images\Study1.jpeg" alt="Gallery"  />
-        <img src="images\Study2.jpeg" alt="Gallery"  />
-        <img src="images\Study3.jpeg" alt="Gallery"  />
-        <img src="images\Study4.jpg" alt="Gallery" />
+        <div className="choose-us-cards">
+          <div className="card">
+            <img src="safe-campus-icon.png" alt="Safe Campus" />
+            <h3>Safe Campus</h3>
+            <p>Lorem ipsum dolor sit amet adipiscing aqua lorem ipsum.</p>
+          </div>
+          <div className="card">
+            <img src="smart-classes-icon.png" alt="Smart Classes" />
+            <h3>Smart Classes</h3>
+            <p>Lorem ipsum dolor sit amet adipiscing aqua lorem ipsum.</p>
+          </div>
+          <div className="card">
+            <img src="qualified-teachers-icon.png" alt="Qualified Teachers" />
+            <h3>Qualified Teachers</h3>
+            <p>Lorem ipsum dolor sit amet adipiscing aqua lorem ipsum.</p>
+          </div>
+          <div className="card">
+            <img src="extracurriculars-icon.png" alt="Extracurriculars" />
+            <h3>Extracurriculars</h3>
+            <p>Lorem ipsum dolor sit amet adipiscing aqua lorem ipsum.</p>
+          </div>
         </div>
-        <button class="more-button">More...</button>
-      
-</div>
-
+      </div>
+    </section>
+<OurFacilities />
 
     </div>
   );

@@ -1,0 +1,31 @@
+/* HomePage.css */
+
+.home-page {
+  font-family: sans-serif;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.logo img {
+  height: 50px; /* Adjust as needed */
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav a.active {
+  font-weight: bold; /* Highlight the active link */
+  color: #007bff; /* Change color if you want */
+}
+
+/* ... rest of your CSS ... */
